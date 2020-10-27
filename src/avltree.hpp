@@ -785,5 +785,3 @@ private:
   	return p;
   }
 };
-
-#endif
