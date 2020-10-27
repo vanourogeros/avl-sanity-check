@@ -10,3 +10,5 @@ Specifically, this function checks the following:
 * <b>Tree size info consistency:</b> The `the_size` parameter has the correct number of nodes assigned to it.
 
 All done in <b>O(n)</b> complexity, with <b>only one</b> recursion of the tree.
+
+The function can be tested with the `avltest.cpp` program
