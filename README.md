@@ -1,6 +1,6 @@
 # avl-sanity-check
 
-This is an AVL Sanity Check function integrated into the header file implementing AVL trees in C++. (Respective owners are mentioned in the comments)
+This is an AVL Sanity Check function integrated into the avltree.hpp header file implementing AVL trees in C++. (Respective owners are mentioned in the comments)
 
 Specifically, this function checks the following:
 * <b>Parent-child relations:</b> Whether each node has in their parent parameter a pointer pointing at the parent node (with the root having `nullptr` as a parent)
