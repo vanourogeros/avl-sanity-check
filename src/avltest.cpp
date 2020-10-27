@@ -15,7 +15,7 @@ using namespace std;
 //   s       prints the tree size, i.e., number of nodes
 //   c       clears the tree, i.e., removes all of its nodes
 //   p       prints the tree's elements using in-order traversal
-//   s       prints the result of the AVL sanity check
+//   a       prints the result of the AVL sanity check
 // All keys are integer numbers.
 
 int main() {
@@ -59,10 +59,11 @@ int main() {
 			cout << endl;
 			break;
 		}
-		case 's': {
+		case 'a': {
 			bool sanity = t.sanity();
 			if (sanity) cout << "passed sanity check" << endl;
 			else cout << "failed sanity check" << endl;
+			break;
 		}
 		default: {
 			cerr << "Unknown operation: " << op << endl;
