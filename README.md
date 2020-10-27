@@ -9,4 +9,4 @@ Specifically, this function checks the following:
 * <b>Balance info consistency:</b> The `balance` parameter for each node has the correct value LH, RH, or EH, according to whether the node is Left-High, Right-High, or Equal-Height respectively.
 * <b>Tree size info consistency:</b> The `the_size` parameter has the correct number of nodes assigned to it.
 
-All done in <b>O(n)</b> complexity, with <b>only one</b> recursion of the tree!
+All done in <b>O(n)</b> complexity, with <b>only one</b> recursion of the tree.
